@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+<link rel="stylesheet" href="my_styles.css">
+<title>My Calculator</title>
+</head>
+<body>
+  <div id = "base">
+    <div>
+    <input id="display" name = "display" placeholder ="0">
+      <h1>My Calculator</h1>
+    </div>
+    <div id = "first">
+      <button type = "button" value = "7" onclick = "math('7')">7</button>
+      <button type = "button" value = "8" onclick = "math('8')">8</button>
+      <button type = "button" value = "9" onclick = "math('9')">9</button>
+      <button type = "button" value = "/" style = "color:red;" onclick = "math('/')">/</button>
+    </div></br>
+    <div id = "second">
+      <button type = "button" value = "4" onclick = "math('4')">4</button>
+      <button type = "button" value = "5" onclick = "math('5')">5</button>
+      <button type = "button" value = "6" onclick = "math('6')">6</button>
+      <button type = "button" value = "*" style = "color:red;" onclick = "math('*')">*</button>
+    </div></br>
+    <div id= "third">
+      <button type = "button" value = "1" onclick = "math('1')">1</button>
+      <button type = "button" value = "2" onclick = "math('2')">2</button>
+      <button type = "button" value = "3" onclick = "math('3')">3</button>
+      <button type = "button" value = "-" style ="color:red; " onclick = "math('-')">-</button>
+    </div></br>
+    <div id= "fourth">
+      <button type = "button" value = "clear" onclick = "undo('C')">C</button>
+      <button type = "button" value = "clear all" onclick = "math('CE')">CE</button>
+      <button type = "button" value = "equal" onclick = "answer('=')" >&#61</button>
+      <button type = "button" value = "+" style= "color:red;" onclick = "math('+')">+</button>
+    </div></br>
+    <div id="fifth">
+          <button id = "luck" type = "button" value = "Luck" onclick = "numbers('Luck')">I Feel Lucky!</button>
+    </div>
+  </div>
+<script src="my_scripts.js"></script>
+</body>
+</html>

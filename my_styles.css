@@ -1,0 +1,64 @@
+body{
+  background-color:#4685F2;
+}
+
+h1{
+  text-align: center;
+  position: relative;
+  color: #fafcfa;
+  top: 50px;
+  text-shadow: 2px 2px #b80614;
+  font-family: 'Baloo', cursive;
+}
+
+#display{
+  width:83%;
+  height: 50px;
+  background-color:#DEE2E3;
+  box-shadow: 5px 5px grey;
+  font-size: 2em;
+  border-radius: 50px;
+  position: relative;
+  top:25px;
+  left: 35px;
+}
+
+#base{
+  height: 500px;
+  width: 500px;
+  position: relative;
+  left: 29%;
+  top: 100px;
+  border: 10px solid white;
+  border-radius: 50px;
+  background-color: black;
+  box-shadow: 10px 10px 5px #C7BADE;
+}
+
+button{
+  width: 20%;
+  height: 30Px;
+  border-radius: 50px;
+  box-shadow: 3px 3px black;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+button:focus{
+  outline:0;
+  outline: none;
+}
+
+#first,#second,#third,#fourth,#fifth{
+  position: relative;
+  left: 8%;
+  top: 15%
+}
+
+#luck{
+  width:83%;
+  height: 25%;
+  font-weight: bold;
+  font-size: 2em;
+  color: #38800B;
+}
